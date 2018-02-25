@@ -1,0 +1,43 @@
+default_view:
+  view: yes
+  icon: mdi:home
+  entities:
+    - sun.sun
+    - sensor.weather_symbol
+    - group.nightlife
+    - group.desk
+    - group.bedroom
+nightlife:
+  name: Nightlife
+  icon: mdi:weather-night
+  control: hidden
+  entities:
+    - light.front_door
+    - light.orientation_lights
+desk:
+  name: Desk
+  control: hidden
+  entities:
+    - light.office_lamp
+bedroom:
+  name: Bedroom
+  icon: mdi:hotel
+  control: hidden
+  entities:
+    - light.dressing
+    
+multimedia:
+  name: Multimedia
+  icon: mdi:youtube-tv
+  view: yes
+  entities:
+    - switch.home_theatre
+    - media_player.home_speaker
+    - media_player.living_room
+    
+cleaning:
+  name: Cleaning
+  icon: mdi:broom
+  view: yes
+  entities:
+    - vacuum.dirty_diana

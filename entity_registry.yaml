@@ -1,0 +1,8 @@
+media_player.living_room:
+  name:
+  platform: cast
+  unique_id: 44f5e053-fbf5-59c3-c1b9-5b37c59d30e3
+media_player.home_speaker:
+  name:
+  platform: cast
+  unique_id: c60cbff3-9899-430a-5ac6-59625430c324

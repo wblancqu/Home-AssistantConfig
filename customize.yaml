@@ -1,0 +1,8 @@
+light.guidance_lights:
+  icon: mdi:crop-square
+light.front_door:
+  icon: mdi:door
+switch.home_theatre:
+  icon: mdi:theater
+sensor.weather_symbol:
+  friendly_name: Weather

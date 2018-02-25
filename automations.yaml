@@ -1,0 +1,15 @@
+- alias: Enable nightlife at sunset
+  trigger:
+    platform: sun
+    event: sunset
+  action:
+    service: light.turn_on
+    entity_id: group.nightlife
+
+- alias: Disable nightlife at sunrise
+  trigger:
+    platform: sun
+    event: sunrise
+  action:
+    service: light.turn_off
+    entity_id: group.nightlife
